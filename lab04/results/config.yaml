@@ -1,0 +1,27 @@
+dataset: OpenML Adult
+dataset_version: 2
+seed: 42
+train_fraction: 0.7
+test_fraction: 0.3
+stratified_split: true
+numeric_imputation: median
+categorical_imputation: most_frequent
+clip_lower_quantile: 0.01
+clip_upper_quantile: 0.99
+duplicate_policy: training only
+features:
+- capital_net
+- hours_per_age
+model: LogisticRegression
+max_iter: 1000
+raw_sha256: 59959a880c002fba75a447b534e6e9d0bb6151708f6154f8f13ccdd552335a34
+processed_sha256: d40d0650fc6f5e759dc9a9ee44c99bd9184b5b42757a7884dc97be0668699ced
+versions:
+  python: 3.11.9
+  platform: Windows-10-10.0.19045-SP0
+  numpy: 1.26.4
+  pandas: 2.2.2
+  scikit_learn: 1.5.0
+  joblib: 1.4.2
+  matplotlib: 3.9.0
+  pyyaml: 6.0.2

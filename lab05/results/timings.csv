@@ -1,0 +1,7 @@
+metric,median_ms
+manual_training_step,0.4376000724732876
+torch_training_step,0.83910021930933
+eager_forward,0.06880005821585655
+traced_forward,0.056900084018707275
+noncontiguous_matmul,3.4095998853445053
+contiguous_matmul,3.4431996755301952

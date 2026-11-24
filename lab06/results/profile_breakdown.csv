@@ -1,0 +1,5 @@
+stage,seconds,percent
+data_loading,28.6748,45.9
+forward,16.2619,26.03
+backward,16.5659,26.52
+optimizer,0.963,1.54

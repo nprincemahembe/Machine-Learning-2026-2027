@@ -1,0 +1,13 @@
+PyTorch autograd computation graph
+Output grad_fn: <SumBackward0 object at 0x0000024DB35E55A0>
+
+SumBackward0
+  AddmmBackward0
+    AccumulateGrad
+    ReluBackward0
+      AddmmBackward0
+        AccumulateGrad
+        AccumulateGrad
+        TBackward0
+          AccumulateGrad
+    TBackward0

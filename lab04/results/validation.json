@@ -1,0 +1,175 @@
+{
+  "dataset": "UCI Adult / OpenML version 2",
+  "expected_rows": 48842,
+  "actual_rows": 48842,
+  "expected_columns": 15,
+  "actual_columns": 15,
+  "row_count_valid": true,
+  "column_count_valid": true,
+  "duplicate_rows": 52,
+  "schema": {
+    "age": {
+      "expected_type": "integer",
+      "non_numeric_values": 0,
+      "non_integer_values": 0
+    },
+    "fnlwgt": {
+      "expected_type": "integer",
+      "non_numeric_values": 0,
+      "non_integer_values": 0
+    },
+    "education-num": {
+      "expected_type": "integer",
+      "non_numeric_values": 0,
+      "non_integer_values": 0
+    },
+    "capital-gain": {
+      "expected_type": "integer",
+      "non_numeric_values": 0,
+      "non_integer_values": 0
+    },
+    "capital-loss": {
+      "expected_type": "integer",
+      "non_numeric_values": 0,
+      "non_integer_values": 0
+    },
+    "hours-per-week": {
+      "expected_type": "integer",
+      "non_numeric_values": 0,
+      "non_integer_values": 0
+    },
+    "workclass": {
+      "expected_type": "category",
+      "observed_unique_values": 8
+    },
+    "education": {
+      "expected_type": "category",
+      "observed_unique_values": 16
+    },
+    "marital-status": {
+      "expected_type": "category",
+      "observed_unique_values": 7
+    },
+    "occupation": {
+      "expected_type": "category",
+      "observed_unique_values": 14
+    },
+    "relationship": {
+      "expected_type": "category",
+      "observed_unique_values": 6
+    },
+    "race": {
+      "expected_type": "category",
+      "observed_unique_values": 5
+    },
+    "sex": {
+      "expected_type": "category",
+      "observed_unique_values": 2
+    },
+    "native-country": {
+      "expected_type": "category",
+      "observed_unique_values": 41
+    },
+    "income": {
+      "expected_type": "category",
+      "observed_unique_values": 2
+    }
+  },
+  "range_violations": {
+    "age": {
+      "minimum_allowed": 17,
+      "maximum_allowed": 90,
+      "violation_count": 0
+    },
+    "hours-per-week": {
+      "minimum_allowed": 1,
+      "maximum_allowed": 99,
+      "violation_count": 0
+    },
+    "capital-gain": {
+      "minimum_allowed": 0,
+      "maximum_allowed": 99999,
+      "violation_count": 0
+    },
+    "capital-loss": {
+      "minimum_allowed": 0,
+      "maximum_allowed": 4356,
+      "violation_count": 0
+    }
+  },
+  "missing_values": {
+    "age": {
+      "null_count": 0,
+      "question_mark_count": 0
+    },
+    "workclass": {
+      "null_count": 2799,
+      "question_mark_count": 0
+    },
+    "fnlwgt": {
+      "null_count": 0,
+      "question_mark_count": 0
+    },
+    "education": {
+      "null_count": 0,
+      "question_mark_count": 0
+    },
+    "education-num": {
+      "null_count": 0,
+      "question_mark_count": 0
+    },
+    "marital-status": {
+      "null_count": 0,
+      "question_mark_count": 0
+    },
+    "occupation": {
+      "null_count": 2809,
+      "question_mark_count": 0
+    },
+    "relationship": {
+      "null_count": 0,
+      "question_mark_count": 0
+    },
+    "race": {
+      "null_count": 0,
+      "question_mark_count": 0
+    },
+    "sex": {
+      "null_count": 0,
+      "question_mark_count": 0
+    },
+    "capital-gain": {
+      "null_count": 0,
+      "question_mark_count": 0
+    },
+    "capital-loss": {
+      "null_count": 0,
+      "question_mark_count": 0
+    },
+    "hours-per-week": {
+      "null_count": 0,
+      "question_mark_count": 0
+    },
+    "native-country": {
+      "null_count": 857,
+      "question_mark_count": 0
+    },
+    "income": {
+      "null_count": 0,
+      "question_mark_count": 0
+    }
+  },
+  "target_counts": {
+    "<=50K": 37155,
+    ">50K": 11687
+  },
+  "invalid_target_count": 0,
+  "conflicting_feature_groups": 5,
+  "label_audit": {
+    "sample_size": 50,
+    "random_seed": 42,
+    "conflicting_feature_groups": 5,
+    "manual_review_status": "PENDING",
+    "note": "Review the 50 sampled rows against the Adult data dictionary and record findings."
+  }
+}

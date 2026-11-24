@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Admin/Downloads/machine_learning/mlruns/681369067810824520/66624d64201f455c8de0bf730e89fd64/artifacts
+end_time: 1795529161390
+entry_point_name: ''
+experiment_id: '681369067810824520'
+lifecycle_stage: active
+run_id: 66624d64201f455c8de0bf730e89fd64
+run_name: adam_plateau
+run_uuid: 66624d64201f455c8de0bf730e89fd64
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1795528772039
+status: 3
+tags: []
+user_id: Admin

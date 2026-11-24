@@ -1,0 +1,10 @@
+seed: 42
+batch_size: 128
+num_workers: 1
+epochs: 5
+optimizer: adam
+scheduler: cosine
+learning_rate: 0.001
+momentum: 0.9
+accumulation_steps: 1
+use_cuda: true

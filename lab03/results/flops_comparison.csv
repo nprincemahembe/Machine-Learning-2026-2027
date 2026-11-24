@@ -1,0 +1,4 @@
+model,parameters,hand_calculated_flops,thop_macs,thop_estimated_flops,difference_flops,difference_percent,notes
+MLP,235146,469504,234752,469504,0,0.0,"Differences may reflect pooling, activations, bias and profiler counting conventions."
+CNN,20490,2063488,1031744,2063488,0,0.0,"Differences may reflect pooling, activations, bias and profiler counting conventions."
+Attention,70794,2329856,50816,101632,-2228224,-95.64,THOP may omit internal attention operations; its result is not a complete FLOP count.

@@ -1,0 +1,9 @@
+model,deployment,fits_measured_limits
+logistic,Cloud,YES
+logistic,Edge,YES
+logistic,Mobile,YES
+logistic,TinyML,NO
+forest,Cloud,YES
+forest,Edge,YES
+forest,Mobile,YES
+forest,TinyML,NO

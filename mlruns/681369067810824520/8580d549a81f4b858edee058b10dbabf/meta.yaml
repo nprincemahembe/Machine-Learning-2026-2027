@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Admin/Downloads/machine_learning/mlruns/681369067810824520/8580d549a81f4b858edee058b10dbabf/artifacts
+end_time: 1795527961989
+entry_point_name: ''
+experiment_id: '681369067810824520'
+lifecycle_stage: active
+run_id: 8580d549a81f4b858edee058b10dbabf
+run_name: sgd_plateau
+run_uuid: 8580d549a81f4b858edee058b10dbabf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1795527573186
+status: 3
+tags: []
+user_id: Admin

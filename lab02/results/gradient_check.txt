@@ -1,0 +1,4 @@
+Initial loss: 2.302557
+Expected loss: 2.302585
+Gradient checks passed: 10/10
+Required: at least 9/10

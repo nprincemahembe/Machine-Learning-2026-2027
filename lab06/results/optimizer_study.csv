@@ -1,0 +1,7 @@
+optimizer,scheduler,epoch,train_loss,val_accuracy,throughput_samples_s,peak_cuda_mb,learning_rate
+sgd,step,10,0.232025,0.9046,1597.11,N/A (CPU),0.00125
+sgd,cosine,10,0.226153,0.903,1595.54,N/A (CPU),0.0
+sgd,plateau,10,0.224797,0.9016,1606.02,N/A (CPU),0.01
+adam,step,10,0.21993,0.9058,1482.28,N/A (CPU),0.000125
+adam,cosine,10,0.213976,0.9068,1578.42,N/A (CPU),0.0
+adam,plateau,10,0.209608,0.9038,1610.68,N/A (CPU),0.001

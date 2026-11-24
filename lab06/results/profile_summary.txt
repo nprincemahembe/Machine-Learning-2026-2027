@@ -1,0 +1,19 @@
+Lab 6 Profiling Summary
+
+Device: cpu
+Full epoch time: 62.7874 seconds
+Batches measured: 430
+Batches traced with torch.profiler: 5
+
+Full-epoch stage breakdown:
+data_loading: 28.6748 seconds (45.90%)
+forward: 16.2619 seconds (26.03%)
+backward: 16.5659 seconds (26.52%)
+optimizer: 0.9630 seconds (1.54%)
+
+Note: The percentage breakdown uses the sum of
+the four measured training stages as denominator.
+Iterator setup, zero_grad and other overhead are
+not included in those percentages.
+The detailed torch.profiler trace uses only
+a small sample of batches to avoid memory errors.

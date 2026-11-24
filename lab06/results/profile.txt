@@ -1,0 +1,45 @@
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                                   Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg    # of Calls  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  
+enumerate(DataLoader)#_SingleProcessDataLoaderIter._...        34.38%     293.264ms        55.13%     470.285ms      94.057ms             5  
+                          aten::max_pool2d_with_indices        13.10%     111.789ms        13.10%     111.789ms      11.179ms            10  
+                             aten::convolution_backward        12.09%     103.159ms        12.14%     103.609ms      10.361ms            10  
+                               aten::threshold_backward         6.02%      51.376ms         6.02%      51.376ms       5.138ms            10  
+                               aten::mkldnn_convolution         5.88%      50.127ms         5.92%      50.534ms       5.053ms            10  
+                                            aten::copy_         2.42%      20.631ms         2.42%      20.631ms       6.205us          3325  
+                                         aten::_to_copy         2.15%      18.310ms         4.28%      36.544ms      17.914us          2040  
+                                           aten::select         2.06%      17.605ms         2.37%      20.179ms      15.765us          1280  
+                                              aten::div         1.78%      15.223ms         3.14%      26.794ms      39.991us           670  
+                                        aten::clamp_min         1.38%      11.756ms         1.38%      11.756ms       1.176ms            10  
+                                               aten::eq         1.26%      10.783ms         2.62%      22.346ms      34.916us           640  
+                                             aten::view         1.23%      10.515ms         1.23%      10.515ms       4.076us          2580  
+                                              aten::any         1.11%       9.470ms         2.15%      18.350ms      28.672us           640  
+                 aten::max_pool2d_with_indices_backward         1.09%       9.287ms         2.09%      17.855ms       1.786ms            10  
+                                               aten::to         1.05%       8.965ms         5.22%      44.545ms       9.642us          4620  
+                                             aten::sub_         1.03%       8.776ms         1.03%       8.776ms      13.713us           640  
+                                            aten::fill_         1.00%       8.558ms         1.00%       8.558ms     427.900us            20  
+                                         aten::randperm         0.82%       7.031ms         1.58%      13.457ms       6.729ms             2  
+                                    aten::empty_strided         0.80%       6.789ms         0.80%       6.789ms       2.528us          2685  
+                                          aten::permute         0.69%       5.884ms         0.82%       7.004ms      10.944us           640  
+                                            aten::clone         0.66%       5.642ms         1.36%      11.624ms      18.163us           640  
+                                             aten::div_         0.63%       5.404ms         0.63%       5.404ms       8.444us           640  
+                                                 detach         0.63%       5.378ms         0.63%       5.378ms       8.027us           670  
+                                          stage_forward         0.57%       4.887ms        21.75%     185.576ms      37.115ms             5  
+                               Optimizer.step#Adam.step         0.56%       4.794ms         1.39%      11.878ms       2.376ms             5  
+                                          aten::view_as         0.56%       4.791ms         0.70%       5.945ms       9.289us           640  
+                                             aten::item         0.53%       4.541ms         0.70%       5.930ms       4.527us          1310  
+                                         stage_backward         0.53%       4.528ms        21.64%     184.606ms      36.921ms             5  
+                                       aten::as_strided         0.44%       3.793ms         0.44%       3.793ms       1.940us          1955  
+                                            aten::empty         0.39%       3.356ms         0.39%       3.356ms       2.512us          1336  
+                                            aten::addmm         0.27%       2.310ms         0.29%       2.489ms     497.800us             5  
+                                               aten::mm         0.27%       2.293ms         0.27%       2.295ms     229.500us            10  
+                                       aten::is_nonzero         0.26%       2.242ms         0.61%       5.162ms       8.066us           640  
+                                           aten::detach         0.23%       1.969ms         0.85%       7.226ms      10.785us           670  
+                                            aten::lerp_         0.23%       1.933ms         0.23%       1.933ms      64.433us            30  
+                              aten::_local_scalar_dense         0.17%       1.456ms         0.17%       1.456ms       1.111us          1310  
+autograd::engine::evaluate_function: ConvolutionBack...         0.10%     860.000us        12.27%     104.647ms      10.465ms            10  
+                                       aten::lift_fresh         0.10%     853.000us         0.10%     853.000us       0.443us          1925  
+                                              aten::cat         0.09%     761.000us         0.14%       1.192ms     238.400us             5  
+                                     aten::_log_softmax         0.09%     738.000us         0.09%     738.000us     147.600us             5  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  
+Self CPU time total: 853.112ms

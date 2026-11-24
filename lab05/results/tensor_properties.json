@@ -1,0 +1,17 @@
+{
+  "shape": [
+    512,
+    512
+  ],
+  "dtype": "torch.float32",
+  "noncontiguous_strides": [
+    1,
+    512
+  ],
+  "contiguous_strides": [
+    512,
+    1
+  ],
+  "noncontiguous_is_contiguous": false,
+  "contiguous_is_contiguous": true
+}

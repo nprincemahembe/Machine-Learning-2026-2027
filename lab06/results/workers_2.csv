@@ -1,0 +1,2 @@
+epoch,train_loss,val_accuracy,throughput_samples_s,peak_cuda_mb,learning_rate
+1,0.529519,0.8476,1190.12,N/A (CPU),0.0

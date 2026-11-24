@@ -1,0 +1,36 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Datasets
+data/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Training checkpoints
+*_checkpoint.pt
+
+# Local backups
+*_backup/
+*_backup.py
+
+# Temporary files
+*.tmp
+
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db

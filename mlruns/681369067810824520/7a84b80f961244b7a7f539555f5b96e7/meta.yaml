@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Admin/Downloads/machine_learning/mlruns/681369067810824520/7a84b80f961244b7a7f539555f5b96e7/artifacts
+end_time: 1795530289368
+entry_point_name: ''
+experiment_id: '681369067810824520'
+lifecycle_stage: active
+run_id: 7a84b80f961244b7a7f539555f5b96e7
+run_name: accum_b256_a1
+run_uuid: 7a84b80f961244b7a7f539555f5b96e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1795530117534
+status: 3
+tags: []
+user_id: Admin

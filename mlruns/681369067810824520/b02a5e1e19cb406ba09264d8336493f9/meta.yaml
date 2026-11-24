@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Admin/Downloads/machine_learning/mlruns/681369067810824520/b02a5e1e19cb406ba09264d8336493f9/artifacts
+end_time: 1795499554759
+entry_point_name: ''
+experiment_id: '681369067810824520'
+lifecycle_stage: active
+run_id: b02a5e1e19cb406ba09264d8336493f9
+run_name: workers_1
+run_uuid: b02a5e1e19cb406ba09264d8336493f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1795499504927
+status: 3
+tags: []
+user_id: Admin
